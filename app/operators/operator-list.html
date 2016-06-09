@@ -1,0 +1,5 @@
+<div>{{ pageTitle }}</div>
+
+<li *ngFor="let operator of operators">
+    <a (click)="perform(operator)">{{ operator }}</a>
+</li>
